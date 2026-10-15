@@ -1,0 +1,47 @@
+/* ASITS Reports – tokens (match util.css + referencedDocumentDetails.css) */
+@font-face{font-family:Rubik;src:url(fonts/Rubik-VariableFont_wght.ttf);font-weight:300 900}
+@font-face{font-family:IBMPlexSansArabic;src:url(fonts/IBMPlexSansArabic-Regular.ttf);font-weight:400}
+@font-face{font-family:IBMPlexSansArabic;src:url(fonts/IBMPlexSansArabic-Medium.ttf);font-weight:500 700}
+:root{--p:#9E1D15;--p-h:#CA150A;--p-l:#FFE8E8;--p-a:rgba(158,29,21,.08);
+--tx:#1E293B;--tx2:#334155;--mu:#64748B;--lt:#94A3B8;--bd:#E2E8F0;--bd2:#EEF2F6;--bg:#F8FAFC;--sub:#F1F5F9;--sf:#fff;
+--red:#DC2626;--red-l:rgba(220,38,38,.08);--amb:#B45309;--amb-d:#F59E0B;--amb-l:rgba(245,158,11,.12);--blu:#2563EB;--blu-l:rgba(37,99,235,.08);--grn:#047857;--grn-d:#059669;--grn-l:rgba(5,150,105,.1);
+--r8:8px;--r12:12px;--r16:16px;--sh-sm:0 1px 3px rgba(0,0,0,.05);--sh-md:0 4px 14px -2px rgba(15,23,42,.08);--sh-lg:0 10px 25px -5px rgba(15,23,42,.1)}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Rubik",sans-serif;color:var(--tx);background:var(--bg);font-size:14px;line-height:1.5}
+.num,.n{font-family:Rubik;font-variant-numeric:tabular-nums}
+.ic{display:inline-block;width:16px;height:16px;background:currentColor;-webkit-mask:var(--i) center/contain no-repeat;mask:var(--i) center/contain no-repeat;flex:none}
+.ic-alert{--i:url(icons/alert.svg)}
+.ic-arrow-down{--i:url(icons/arrow-down.svg)}
+.ic-arrow-up{--i:url(icons/arrow-up.svg)}
+.ic-bar{--i:url(icons/bar.svg)}
+.ic-bell{--i:url(icons/bell.svg)}
+.ic-bookmark{--i:url(icons/bookmark.svg)}
+.ic-building{--i:url(icons/building.svg)}
+.ic-calendar{--i:url(icons/calendar.svg)}
+.ic-check{--i:url(icons/check.svg)}
+.ic-chevron-left{--i:url(icons/chevron-left.svg)}
+.ic-chevron{--i:url(icons/chevron.svg)}
+.ic-clock{--i:url(icons/clock.svg)}
+.ic-close{--i:url(icons/close.svg)}
+.ic-download{--i:url(icons/download.svg)}
+.ic-eye{--i:url(icons/eye.svg)}
+.ic-file{--i:url(icons/file.svg)}
+.ic-filter{--i:url(icons/filter.svg)}
+.ic-flag{--i:url(icons/flag.svg)}
+.ic-gauge{--i:url(icons/gauge.svg)}
+.ic-info{--i:url(icons/info.svg)}
+.ic-layout{--i:url(icons/layout.svg)}
+.ic-menu{--i:url(icons/menu.svg)}
+.ic-pdf{--i:url(icons/pdf.svg)}
+.ic-plus{--i:url(icons/plus.svg)}
+.ic-return{--i:url(icons/return.svg)}
+.ic-sheet{--i:url(icons/sheet.svg)}
+.ic-swap{--i:url(icons/swap.svg)}
+.ic-user{--i:url(icons/user.svg)}
+.ic-users{--i:url(icons/users.svg)}
+.num,bdi{unicode-bidi:isolate}
+
+/* system mapping: body Rubik (util.css); referenced-window style drawer = IBMPlexSansArabic (items.css) */
+.drawer,.drawer *,.drawer h2,.drawer h3{font-family:"IBMPlexSansArabic","Rubik",sans-serif}
+.drawer .num,.drawer .ago,.drawer .dwell{font-family:"IBMPlexSansArabic","Rubik",sans-serif}
+.drawer .sec-h h2{font-family:"IBMPlexSansArabic"}
